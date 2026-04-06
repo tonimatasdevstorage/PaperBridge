@@ -4,6 +4,8 @@
 	"compatibilityLevel": "JAVA_25",
 	"plugin": "dev.tonimatas.mixin.EthyleneConfigPlugin",
 	"mixins": [
+		"minecraft.ChatFormattingMixin",
+		"minecraft.CrashReportMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

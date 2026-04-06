@@ -10,10 +10,17 @@ val fabricApiVersion: String by extra
 version = modVersion
 group = "dev.tonimatas"
 
+repositories {
+	maven("https://repo.papermc.io/repository/maven-public/")
+	maven("https://nexus.c0d3m4513r.com/repository/Ketting/")
+}
+
 dependencies {
 	minecraft("com.mojang:minecraft:$minecraftVersion")
 	implementation("net.fabricmc:fabric-loader:$loaderVersion")
 	implementation("net.fabricmc.fabric-api:fabric-api:$fabricApiVersion")
+	implementation("io.papermc.paper:paper-api:26.1.1.build.+")
+	implementation("org.kettingpowered:MixinExtras:[0.0.1, 0.1.0)")
 }
 
 tasks.processResources {

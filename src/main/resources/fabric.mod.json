@@ -11,7 +11,7 @@
 		"homepage": "https://github.com/TonimatasDEV/Ethylene",
 		"sources": "https://github.com/TonimatasDEV/Ethylene"
 	},
-	"license": "MIT",
+	"license": "GPL-3.0",
 	"environment": "*",
 	"entrypoints": {
 		"main": [

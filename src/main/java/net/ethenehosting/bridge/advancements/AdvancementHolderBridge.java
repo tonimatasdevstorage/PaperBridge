@@ -1,4 +1,4 @@
-package dev.tonimatas.bridge.minecraft.advancements;
+package net.ethenehosting.bridge.advancements;
 
 import org.bukkit.advancement.Advancement;
 

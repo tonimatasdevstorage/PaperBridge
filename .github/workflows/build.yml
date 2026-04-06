@@ -23,7 +23,7 @@ jobs:
       - name: build
         run: ./gradlew build
 
-      - name: Upload Ethylene
+      - name: Upload PaperBridge
         uses: actions/upload-artifact@v4
         with:
           name: Artifacts

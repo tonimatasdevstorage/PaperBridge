@@ -6,4 +6,4 @@ pluginManagement {
 	}
 }
 
-rootProject.name = "ethylene"
+rootProject.name = "paper_bridge"

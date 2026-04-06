@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "dev.tonimatas.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"plugin": "dev.tonimatas.mixin.EthyleneConfigPlugin",
+	"mixins": [
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

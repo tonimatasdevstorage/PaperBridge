@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "ethylene",
+	"version": "${version}",
+	"name": "Ethylene",
+	"description": "Paper in Fabric",
+	"authors": [
+		"TonimatasDEV"
+	],
+	"contact": {
+		"homepage": "https://github.com/TonimatasDEV/Ethylene",
+		"sources": "https://github.com/TonimatasDEV/Ethylene"
+	},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.tonimatas.Ethylene"
+		]
+	},
+	"mixins": [
+		"ethylene.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.6",
+		"minecraft": "~26.1.1",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

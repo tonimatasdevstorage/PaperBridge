@@ -3,4 +3,4 @@ accessible method net/minecraft/advancements/Advancement decorateName (Lnet/mine
 accessible field net/minecraft/world/entity/ai/attributes/Attribute sentiment Lnet/minecraft/world/entity/ai/attributes/Attribute$Sentiment;
 
 # Inject Interface
-inject-interface net/minecraft/advancements/AdvancementHolder dev/tonimatas/bridge/minecraft/advancements/AdvancementHolderBridge
+inject-interface net/minecraft/advancements/AdvancementHolder net/ethenehosting/bridge/advancements/AdvancementHolderBridge

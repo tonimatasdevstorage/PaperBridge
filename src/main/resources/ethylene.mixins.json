@@ -5,7 +5,10 @@
 	"plugin": "dev.tonimatas.mixin.EthyleneConfigPlugin",
 	"mixins": [
 		"minecraft.ChatFormattingMixin",
-		"minecraft.CrashReportMixin"
+		"minecraft.CrashReportMixin",
+		"minecraft.advancements.AdvancementHolderMixin",
+		"minecraft.advancements.AdvancementTreeMixin",
+		"minecraft.advancements.DisplayInfoMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

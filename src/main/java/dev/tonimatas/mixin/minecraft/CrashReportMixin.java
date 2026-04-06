@@ -2,6 +2,7 @@ package dev.tonimatas.mixin.minecraft;
 
 import net.minecraft.CrashReport;
 import net.minecraft.SystemReport;
+import org.bukkit.craftbukkit.CraftCrashReport;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
@@ -18,7 +19,7 @@ public class CrashReportMixin {
 
     @Inject(method = "<init>", at = @At("RETURN"))
     private void ethylene$init(CallbackInfo ci) {
-        //this.systemReport.setDetail("CraftBukkit Information", new org.bukkit.craftbukkit.CraftCrashReport()); // CraftBukkit TODO: Uncomment
+        this.systemReport.setDetail("CraftBukkit Information", new CraftCrashReport()); // CraftBukkit
     }
     
     @Redirect(method = "preload", at = @At(value = "INVOKE", target = "Lnet/minecraft/util/MemoryReserve;allocate()V"))

@@ -2,3 +2,7 @@
 build
 run
 .idea
+src/main/java/io
+src/main/java/com
+src/main/java/ca
+src/main/java/org
